@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bdkit"
+version = "0.1.0"
+description = "Tiny zero-dependency Python utilities for Bangladesh-focused apps: taka in words, lakh/crore formatting, Bangla digits, BD phone validation."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["bangladesh", "bangla", "taka", "bd", "phone", "localization"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
